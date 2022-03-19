@@ -3,7 +3,7 @@ html {
   font-family: "Crimson Pro", serif;
   line-height: 1.3rem;
   font-weight: normal;
-  color: #222;
+  color: #555;
   margin: 0px 550px 0px 550px;
   background-color: #999;
 }
@@ -29,9 +29,11 @@ img {
 
 h1 {
   font-style:normal;
+  color: #222;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 1.125rem;
 }
 
 h1 + p {
