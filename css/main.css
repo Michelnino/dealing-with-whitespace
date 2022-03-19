@@ -1,10 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: "Crimson Pro", serif;
+  font-family: "Crimson Text", serif;
   line-height: 1.3rem;
   font-weight: normal;
   color: #555;
-  margin: 0px 550px 0px 550px;
+
   background-color: #999;
 }
 
@@ -20,32 +20,44 @@ body {
   padding-bottom: 2rem;
   border-right: 2px;
   border-left: 2px;
-
+  margin: 1rem 35rem;
 }
 
 img {
   width: 100%;
 }
 
-h1 {
-  font-style:normal;
+article header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+article h1 {
+  font-style: normal;
   color: #222;
   font-weight: normal;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+article header p {
+  font-style: italic;
+}
+
+article blockquote {
+  margin-top: 4px;
+  margin-bottom: 50px;
   font-size: 1.125rem;
 }
 
-h1 + p {
+.quote {
   font-style: italic;
-  margin-top: 4px;
-  margin-bottom: 50px;
 }
 
 blockquote p {
   color: #999;
 }
 
-ol li {
+article ol {
   text-align: left;
+  font-size: 1em;
 }
