@@ -4,7 +4,7 @@ html {
   line-height: 1.3rem;
   font-weight: normal;
   color: #222;
-  margin: 0px 400px 0px 400px;
+  margin: 0px 550px 0px 550px;
   background-color: #999;
 }
 
@@ -37,5 +37,13 @@ h1 {
 h1 + p {
   font-style: italic;
   margin-top: 4px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+blockquote p {
+  color: #999;
+}
+
+ol li {
+  text-align: left;
 }
