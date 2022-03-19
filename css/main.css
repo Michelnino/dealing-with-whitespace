@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: "Crimson Pro", serif;
+  line-height: 1.3rem;
+  font-weight: normal;
+  color: #222;
+  margin: 0px 400px 0px 400px;
+  background-color: #999;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-right: 2px;
+  border-left: 2px;
+
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-style:normal;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 + p {
+  font-style: italic;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
