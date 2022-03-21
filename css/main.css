@@ -39,13 +39,17 @@ article h1 {
   font-size: 1.5rem;
 }
 
+blockquote {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
 article header p {
   font-style: italic;
 }
 
 article blockquote {
   margin-top: 4px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   font-size: 1.125rem;
 }
 
