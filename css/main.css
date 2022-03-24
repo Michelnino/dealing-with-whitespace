@@ -23,6 +23,10 @@ article header {
   margin-bottom: 0;
 }
 
+article p {
+  margin: 1rem 1rem 0rem;
+}
+
 article h1 {
   font-style: normal;
   color: #222;
@@ -32,14 +36,19 @@ article h1 {
   padding: 0rem 1rem;
 }
 
+article p p {
+  margin: 1rem 0rem 0rem;
+}
+
 blockquote {
   margin-top: 4px;
   margin-bottom: 1rem;
+  padding: 0rem;
 }
 
 article header p {
   font-style: italic;
-  margin: 0px 1rem 1rem 1rem;
+  margin: 0px 1rem 1rem;
   padding: 0rem 1rem 2rem;
   border-bottom: 2px solid black;
 }
@@ -48,19 +57,27 @@ article blockquote {
   margin-top: 4px;
   margin-bottom: 1rem;
   font-size: 1.125rem;
-  padding: 1rem;
+  padding: 0rem 0rem 1rem;
+}
+article p + p {
+  margin: 1rem;
 }
 
 .quote {
   font-style: italic;
-  padding: 1rem;
 }
 
 blockquote p {
   color: #999;
+  margin: 1rem;
 }
 
 article ol {
   text-align: left;
   font-size: 1em;
+}
+
+article ol + p {
+  border-bottom: 2px solid black;
+  margin: 0rem 0rem 2rem;
 }
