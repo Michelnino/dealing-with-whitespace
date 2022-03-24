@@ -4,8 +4,6 @@ html {
   line-height: 1.3rem;
   font-weight: normal;
   color: #555;
-
-  background-color: #999;
 }
 
 *, *::before, *::after {
@@ -13,7 +11,7 @@ html {
 }
 
 body {
-  margin: 0rem;
+  margin: 0px;
 }
 
 img {
@@ -21,8 +19,8 @@ img {
 }
 
 article header {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 article h1 {
@@ -30,25 +28,32 @@ article h1 {
   color: #222;
   font-weight: normal;
   font-size: 1.5rem;
+  margin: 1rem 0rem 0rem 1rem;
+  padding: 0rem 1rem;
 }
 
 blockquote {
   margin-top: 4px;
-  margin-bottom: 0px;
+  margin-bottom: 1rem;
 }
 
 article header p {
   font-style: italic;
+  margin: 0px 1rem 1rem 1rem;
+  padding: 0rem 1rem 2rem;
+  border-bottom: 2px solid black;
 }
 
 article blockquote {
   margin-top: 4px;
-  margin-bottom: 0px;
+  margin-bottom: 1rem;
   font-size: 1.125rem;
+  padding: 1rem;
 }
 
 .quote {
   font-style: italic;
+  padding: 1rem;
 }
 
 blockquote p {
