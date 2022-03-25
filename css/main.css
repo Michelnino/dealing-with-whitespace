@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Crimson Text", serif;
+  font-family: "Crimson Text", italic;
   line-height: 1.3rem;
   font-weight: normal;
   color: #222;
@@ -30,6 +30,8 @@ article header {
 
 article {
   padding: 0 1rem;
+  font-family: "Crimson text";
+  color: #222;
 }
 
 article h1 {
@@ -66,11 +68,13 @@ article blockquote {
 }
 
 article p + p {
-  margin: 1rem 0;
+  margin: 1em 0;
 }
 
 .quote {
   font-style: italic;
+  font-size: 1.125rem;
+  color: #999;
 }
 
 blockquote p {
@@ -80,7 +84,7 @@ blockquote p {
 
 article ol {
   text-align: left;
-  font-size: 1em;
+  font-size: 1.125rem;
 }
 
 article ol + p {
